@@ -9,15 +9,17 @@ color: rgba(255, 255, 255, 0.6);*/
 /*цвет ынтерактивной ссылки background: #2196F3;*/
 
 :root {
+  --body-color: #ffffff;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --hero-text-color-h1: #ffffff;
   --text-logo-color: #000000;
+  --primary-button-color: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--body-color);
   color: var(--primary-text-color);
 }
 
@@ -69,4 +71,9 @@ ul {
 
 .feature-list .title {
   color: var(--title-text-color);
+}
+/* Button */
+.button {
+  color: var(--primary-button-color);
+  background-color: #188ce8;
 }
