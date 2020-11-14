@@ -32,6 +32,9 @@ ul {
 .logo:focus {
   color: var(--accent-color);
 }
+.logo.current {
+  color: var(--accent-color);
+}
 
 /*  site-nav */
 .site-nav .link {
@@ -40,10 +43,6 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
   color: var(--accent-color);
 }
 
