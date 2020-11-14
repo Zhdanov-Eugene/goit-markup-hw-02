@@ -54,6 +54,7 @@ ul {
 .auth-adds:focus {
   color: var(--accent-color);
 }
+
 /* hero */
 .hero-title {
   /* color: var(--hero-text-color-h1); */
@@ -82,3 +83,18 @@ ul {
 }
 
 /* footer */
+.p {
+  text-indent: 40px;
+}
+/* шрифты
+1.font-family: Raleway;
+Weight - 700 для лого
+
+2.Roboto;500, для нав ы адрес у шапке, имя в наша команда
+
+3.Roboto-900-для героя
+4. 700 для кнопки, заголовки особенности, чем ми заним, 
+5. 400 для текста в особенности. профессия команди
+
+
+ */
