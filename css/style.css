@@ -3,11 +3,6 @@ color: rgba(255, 255, 255, 0.6);*/
 
 /*цвет заливки героя и футера background: #2F303A;*/
 
-/*цвет логотыпа веб студио color: #2196F3;
-#000000;*/
-
-/*цвет ынтерактивной ссылки background: #2196F3;*/
-
 :root {
   --body-color: #ffffff;
   --primary-text-color: #757575;
@@ -16,6 +11,7 @@ color: rgba(255, 255, 255, 0.6);*/
   --hero-text-color-h1: #ffffff;
   --text-logo-color: #000000;
   --primary-button-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -47,6 +43,10 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* auth-adds */
 .auth-adds {
   color: var(--primary-text-color);
@@ -73,7 +73,13 @@ ul {
   color: var(--title-text-color);
 }
 /* Button */
-.button {
+.button-primary {
   color: var(--primary-button-color);
   background-color: #188ce8;
 }
+/* our team */
+.team .webstudio {
+  color: var(--title-text-color);
+}
+
+/* footer */
