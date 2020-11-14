@@ -1,0 +1,53 @@
+:root {
+  --body-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-text-color-h1: #ffffff;
+  --text-logo-color: #000000;
+  --primary-button-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--text-logo-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo.current {
+  color: var(--accent-color);
+}
+
+/*  site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth-adds */
+.auth-adds {
+  color: var(--primary-text-color);
+}
+.auth-adds:hover,
+.auth-adds:focus {
+  color: var(--accent-color);
+}
+
+/* maine and footer */
