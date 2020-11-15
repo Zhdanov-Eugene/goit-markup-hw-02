@@ -13,6 +13,7 @@ color: rgba(255, 255, 255, 0.6);*/
   --button-primary-color-back: #2196f3;
   --button-primary-color-hover: #188ce8;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --team-back-color: #f5f4fa;
 }
 
 body {
@@ -107,15 +108,29 @@ ul {
 }
 
 /* Section */
-
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* features */
-
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-list .paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* our team */
