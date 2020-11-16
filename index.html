@@ -15,22 +15,25 @@
     <!--шапка, навигация, адресс-->
     <header>
       <nav>
-        <a class="logo" href="./index.html"> WebStudio</a>
+        <a class="logo" href="./index.html">
+          <span class="web">Web</span><span class="studio">Studio</span>
+        </a>
 
         <ul class="site-nav">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./портфолио.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li><a class="link current" href="./index.html">Студия</a></li>
+          <li><a class="link" href="./портфолио.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
 
       <address>
-        <a class="auth-adds" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="auth-adds" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="address-header" href="mailto:info@devstudio.com"
+          >info@devstudio.com
+        </a>
+        <a class="address-header" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </header>
+
     <!--основной контейнер-->
     <main>
       <!--основной заголовок сайта, кнопка/ HERO-->
@@ -53,6 +56,7 @@
               формированию позиции.
             </p>
           </li>
+
           <li>
             <h3 class="title">Пунктуальность</h3>
             <p class="paragraph">
@@ -60,6 +64,7 @@
               влечет за собой.
             </p>
           </li>
+
           <li>
             <h3 class="title">Планирование</h3>
             <p class="paragraph">
@@ -67,6 +72,7 @@
               степени обуславливает.
             </p>
           </li>
+
           <li>
             <h3 class="title">Современные технологии</h3>
             <p class="paragraph">
@@ -76,6 +82,7 @@
           </li>
         </ul>
       </section>
+
       <!--чем ми занимаемся + картинки-->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
@@ -88,6 +95,7 @@
               height="294"
             />
           </li>
+
           <li>
             <img
               src="./images/img-2.jpg"
@@ -96,6 +104,7 @@
               height="294"
             />
           </li>
+
           <li>
             <img
               src="./images/img-3.jpg"
@@ -106,10 +115,11 @@
           </li>
         </ul>
       </section>
+
       <!--наша команда-->
-      <section class="section">
+      <section class="section-team">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="team">
+        <ul>
           <li>
             <img
               src="./images/ИгорьДемьяненко.jpg"
@@ -117,9 +127,10 @@
               width="270"
               height="260"
             />
-            <h3 class="team webstudio">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="profession">Product Designer</p>
           </li>
+
           <li>
             <img
               src="./images/ОльгаРепина.jpg"
@@ -127,9 +138,10 @@
               width="270"
               height="260"
             />
-            <h3 class="team webstudio">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name">Ольга Репина</h3>
+            <p class="profession">Frontend Developer</p>
           </li>
+
           <li>
             <img
               src="./images/НиколайТарасов.jpg"
@@ -137,9 +149,10 @@
               width="270"
               height="260"
             />
-            <h3 class="team webstudio">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="name">Николай Тарасов</h3>
+            <p class="profession">Marketing</p>
           </li>
+
           <li>
             <img
               src="./images/МихаилЕрмаков.jpg"
@@ -147,21 +160,35 @@
               width="270"
               height="260"
             />
-            <h3 class="team webstudio">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="name">Михаил Ермаков</h3>
+            <p class="profession">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
+
     <!--подвал или footer-->
-    <footer class="Footer">
-      <a class="logo" href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a class="logo-footer" href="./index.html">
+        <span class="web-footer">Web</span
+        ><span class="studio-footer">Studio</span>
+      </a>
       <address>
-        г. Киев, пр-т Леси Украинки, 26
-        <a class="auth-adds" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="auth-adds" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul>
+          <li class="adds-webstudio">г. Киев, пр-т Леси Украинки, 26</li>
+
+          <li>
+            <a class="address-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </li>
+
+          <li>
+            <a class="address-footer" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
