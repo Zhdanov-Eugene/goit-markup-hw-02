@@ -3,10 +3,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --hero-text-color-h1: #ffffff;
   --text-logo-color: #000000;
-  --button-primary-color: #ffffff;
-  --button-primary-color-back: #2196f3;
   --button-primary-color-hover: #188ce8;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --team-back-color: #f5f4fa;
@@ -93,7 +90,7 @@ ul {
 }
 
 .hero-title {
-  color: var(--hero-text-color-h1);
+  color: var(--body-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -105,10 +102,10 @@ ul {
 
 /* Button */
 .button-primary {
-  background-color: var(--button-primary-color-back);
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--button-primary-color);
+  color: var(--body-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
